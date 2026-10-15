@@ -1,16 +1,23 @@
-# Courses · 课程中心
+# Courses｜课程中心
 
-将每门课程作为长期维护的知识单元，统一归档课程资料、作业、课堂笔记及相关交流记录。
+收录 Notion 中的 2026 Fall 课程档案，并按课程整理作业、课堂笔记和资料链接。
 
-## 课程目录
+## 2026 Fall
 
-| 课程 | 主要内容 |
-| --- | --- |
-| [UCMP 6050](#/courses/UCMP-6050) | Project-driven Collaborative Design Thinking |
+| Course | Title | Category |
+| --- | --- | --- |
+| [AIAA 5026](#/courses/AIAA-5026) | Computer Vision and Its Applications | 专业课 |
+| [FUNH 5000](#/courses/FUNH-5000) | Introduction to Function Hub for Sustainable Future | Hub Core |
+| [INFH 5000](#/courses/INFH-5000) | Information Science and Technology: Essentials and Trends | Hub Core |
+| [LANG 5000](#/courses/LANG-5000) | Foundation in Listening & Speaking for Postgraduate Students | English |
+| [MOES 5001](#/courses/MOES-5001) | The Theory and Practice of Socialism with Chinese Characteristics in The New Era | Political Education |
+| [PDEV 6770S](#/courses/PDEV-6770S) | Professional Development for Research Postgraduate Students | Professional Development |
+| [PDEV 6800X](#/courses/PDEV-6800X) | Introduction to Teaching and Learning in Higher Education | Professional Development |
+| [UCMP 6050](#/courses/UCMP-6050) | Project-driven Collaborative Design Thinking | RBM Core |
 
-## 组织约定
+## 已归档作业
 
-- 一门课程一个目录或主页面，按需要增加 `assignments/`、`notes/`、`references/` 等子目录。
-- 有日期的笔记与作业尽量使用 `YYYY-MM-DD-topic.md` 命名。
-- 不复制相同内容到多个分类：课程页面可以链接到 Meetings 或 Research 对应记录。
-- 每次新增资料后，先更新课程索引；重要页面再加入全站侧边栏。
+- [UCMP 6050 · Assignment 1 / Part 1](#/courses/UCMP-6050/assignment-1-part-1)
+- [UCMP 6050 · 第二次组会分析](#/meetings/2026-10-16-ucmp-epp-as)
+
+> 已导入真实课程属性。原 Notion 课程档案的空白占位项目不等于已有文件。

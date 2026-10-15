@@ -1,59 +1,36 @@
-# Academic Workspace · Maintenance Guide
+# Academic Workspace · Maintenance
 
-This repository is a **Markdown-first static documentation site** powered by Docsify 4.
+## Principle
 
-## Content structure
+One document, one canonical path. Link across course, meeting and research indexes rather than duplicating substantive content.
 
-```text
-/
-├── index.html          # Docsify shell and appearance
-├── README.md           # Website home
-├── _sidebar.md         # Global navigation
-├── .nojekyll           # Keep underscore-prefixed files on GitHub Pages
-├── courses/
-│   ├── README.md
-│   └── UCMP-6050.md
-├── meetings/
-│   └── README.md
-├── research/
-│   └── README.md
-└── resources/
-    └── README.md
-```
+## Structure
 
-## How to add a document
+- `index.html` — Docsify HTML shell and visual design
+- `README.md` — homepage
+- `_sidebar.md` — main navigation
+- `courses/` — 8 course metadata pages; assignment subfolders as needed
+- `meetings/` — dated meetings and a reusable template
+- `research/` — EPP catalog and future research notes
+- `resources/` — cross-course templates and reference links
 
-1. Decide where the document belongs: `courses/`, `meetings/`, `research/`, or `resources/`.
-2. Use a descriptive slug: `YYYY-MM-DD-short-topic.md` for dated documents; use `README.md` for a category landing page.
-3. Create a complete Markdown document with a clear title, date (when useful), source links and an action section (when applicable).
-4. Link it from its section index; add it to `_sidebar.md` only if it should be in the global navigation.
-5. Commit with a scoped message, e.g. `docs(ucmp): add meeting notes`.
+## Editing protocol
 
-Prefer links over duplicated documents. Store screenshots or supporting images in a nearby `assets/` folder when needed. Keep file paths stable so existing links do not break.
+1. Review the source and preserve its terminology and intent.
+2. Save a Markdown file to the relevant section, using `YYYY-MM-DD-topic.md` for dated notes.
+3. Add a link to the nearest index, then update `_sidebar.md` for frequently accessed documents.
+4. Verify relative routes and commit with a descriptive message.
+5. Do not publish third-party private proposals, personal contact details, student identities or unpublished work without permission.
 
-## Website publishing
+## Sources and accuracy
 
-GitHub repository: https://github.com/FuTseYi/Academic-Workspace
+- Course entries were extracted from the 8-row Notion course database on 2026-10-15.
+- The UCMP meeting analysis and template originated in the connected Notion workspace.
+- EPP catalog is a 2026-10-15 screenshot-based snapshot; named project owners and member counts are intentionally omitted from the public website copy.
+- The original 2-page UCMP Assignment 1 PDF is more authoritative than its automatically extracted text, particularly for matrix layouts. Part 2 is not included.
 
-For GitHub Pages, open **Settings → Pages**; choose **Deploy from a branch**; branch **main**, folder **/(root)**; save. The expected URL for a project site is https://futseyi.github.io/Academic-Workspace/ after Pages is enabled and deployment succeeds.
+## Deploy
 
-No build command or GitHub Actions workflow is required.
+Docsify requires no build. For GitHub Pages, select **Settings → Pages → Deploy from a branch → main / (root)**.
 
-Local preview (if desired):
-
-```bash
-python -m http.server 3000
-```
-
-Then open `http://localhost:3000/` from the repository root.
-
-## Privacy safeguards
-
-- **Current repository visibility: public.** Do not commit non-public Notion exports, classmates' contact details, instructor feedback, personal AS considerations, draft applications, or private proposal details while the repository remains public.
-- GitHub Pages **does not become access-restricted simply because the repository is switched to private**. Confirm the deployment/access policy separately before posting restricted content.
-- Making a public repository private later cannot retract already copied or indexed material.
-- Treat public material as intentional publication; verify licensing and permissions for third-party course material.
-
-## Future update workflow
-
-Discuss → draft/verify → choose folder → commit Markdown and update index/sidebar → GitHub Pages automatically republishes after the publishing source is configured.
+GitHub Pages privacy is distinct from repository privacy; changing an existing public repository to Private does not guarantee that a deployed site is access-restricted.

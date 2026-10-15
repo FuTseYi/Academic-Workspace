@@ -1,22 +1,29 @@
 # Academic Workspace
 
-> 一个轻量、持续更新的个人学术文档工作区。以 Markdown 作为唯一内容来源，以 GitHub 进行版本管理，以 Docsify 提供分类浏览和全文搜索。
+> 一个按课程、组会、研究与资料分类的 Markdown 学术知识库。由 GitHub 管理版本，通过 Docsify 阅读网页，无需后端或构建工具。
 
-## 快速入口
+## 内容总览
 
-| 分类 | 用途 | 入口 |
+| 分类 | 已收录 | 入口 |
 | --- | --- | --- |
-| **Courses · 课程** | 课程资料、课堂笔记、作业整理 | [课程中心](#/courses/) |
-| **Meetings · 组会** | 会前准备、组会纪要、待办与反馈 | [组会中心](#/meetings/) |
-| **Research · 研究** | 项目探索、文献调研、研究方向 | [研究中心](#/research/) |
-| **Resources · 资源** | 学术工具、写作模板、参考资料 | [资源中心](#/resources/) |
+| **Courses · 课程** | 2026 Fall 的 8 门课程档案、UCMP 第一次作业 Part 1 | [课程中心](#/courses/) |
+| **Meetings · 组会** | 2026-10-16 第二次组会分析、会议纪要模板 | [组会中心](#/meetings/) |
+| **Research · 研究** | EPP 78 个项目目录、研究方向与 AS 探索 | [研究中心](#/research/) |
+| **Resources · 资源** | 可复用模板、研究资料入口 | [资源中心](#/resources/) |
 
-## 内容管理方式
+## 最近更新
 
-**整理 → 归档 → 发布。** 将内容保存为分类目录中的 Markdown 文档；在对应目录首页添加入口，必要时更新网站侧边栏。无需逐篇编写 HTML，也无需运行构建工具。
+- **2026-10-15** — [UCMP：第二次组会准备](#/meetings/2026-10-16-ucmp-epp-as)
+- **2026-10-15** — [RBM EPP：78 个项目目录](#/research/rbm-epp-2026-catalog)
+- **2026-10-15** — [UCMP：第一次作业 Part 1](#/courses/UCMP-6050/assignment-1-part-1)
+- **2026-10-15** — [导入 8 门课程档案](#/courses/)
 
-当前站点为最小可用版本，优先确保结构简洁、导航清晰、长期便于维护。后续课程和组会记录可按需逐篇增加。
+## 使用方式
+
+以后讨论完一份文档，就把 Markdown 更新到对应目录并维护索引。已启用 Pages 的仓库会在提交后自动更新网页。
+
+> **隐私提示：** 当前仓库公开，相关内容也可能被网页公开展示。本次 EPP 清单公开版删除了同学姓名及团队人数；没有迁入未公开完整 Proposal。即使之后修改仓库为 Private，也应单独检查 GitHub Pages 的公开访问设置。
 
 ---
 
-*Powered by Docsify · Versioned with GitHub*
+*Markdown · Docsify · GitHub*
