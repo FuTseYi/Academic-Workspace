@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="A lightweight academic workspace for courses, meetings, research, and knowledge management.">
+  <meta name="theme-color" content="#f6f8fb">
+  <title>Academic Workspace</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/themes/vue.css">
+  <style>
+    :root { --accent:#285d78; --ink:#223143; --muted:#6c7b8a; --line:#e7edf2; --canvas:#f8fafc; }
+    body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif; color:var(--ink); background:#fff; }
+    .sidebar { background:var(--canvas); border-right:1px solid var(--line); padding-top:26px; }
+    .app-name { font-size:1.18rem; letter-spacing:-.025em; font-weight:700; line-height:1.45; }
+    .app-name a { color:var(--ink) !important; }
+    .sidebar-nav { padding:6px 0 24px; }
+    .sidebar-nav > ul > li { margin:18px 0 4px; font-size:.93rem; font-weight:650; }
+    .sidebar-nav ul li a { color:#506277; line-height:1.55; }
+    .sidebar-nav ul li.active > a { color:var(--accent); border-right:2px solid var(--accent); }
+    .search { border-bottom:1px solid var(--line) !important; }
+    .search input { background:transparent; font-family:inherit; }
+    .markdown-section { max-width:880px; padding-top:32px; padding-bottom:70px; line-height:1.8; }
+    .markdown-section h1,.markdown-section h2,.markdown-section h3 { color:var(--ink); font-weight:700; }
+    .markdown-section h1 { letter-spacing:-.035em; font-size:2rem; border-bottom:0; }
+    .markdown-section h2 { font-size:1.32rem; margin-top:2rem; border-bottom:1px solid var(--line); padding-bottom:8px; }
+    .markdown-section a { color:var(--accent); font-weight:500; }
+    .markdown-section blockquote { border-left:3px solid #9ec5d8; background:#f4f8fb; padding:12px 18px; border-radius:0 8px 8px 0; }
+    .markdown-section table { display:table; width:100%; border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    .markdown-section tr:nth-child(2n) { background:#f8fafc; }
+    .markdown-section th { background:#f1f5f8; font-weight:650; }
+    .markdown-section td,.markdown-section th { border:1px solid var(--line); }
+    .markdown-section code { border-radius:4px; }
+    .github-corner svg { fill:#285d78; }
+    @media(max-width:768px) { .markdown-section { padding:20px 19px 56px; } .markdown-section h1 { font-size:1.72rem; } .markdown-section table { display:block; overflow-x:auto; } }
+  </style>
+</head>
+<body>
+  <div id="app">Loading Academic Workspace…</div>
+  <script>
+    window.$docsify = {
+      name: 'Academic Workspace',
+      repo: 'https://github.com/FuTseYi/Academic-Workspace',
+      homepage: 'README.md',
+      loadSidebar: true,
+      alias: { '/.*/_sidebar.md': '/_sidebar.md' },
+      auto2top: true,
+      maxLevel: 2,
+      subMaxLevel: 1,
+      themeColor: '#285d78',
+      search: {
+        paths: 'auto',
+        placeholder: '搜索文档 / Search',
+        noData: '没有找到相关内容',
+        depth: 3,
+        namespace: 'academic-workspace'
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/plugins/search.min.js"></script>
+</body>
+</html>

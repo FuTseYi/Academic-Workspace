@@ -1,25 +1,22 @@
 # Academic Workspace
 
-A lightweight, Markdown-first academic knowledge base for courses, meetings, research, and reference materials.
+> 一个轻量、持续更新的个人学术文档工作区。以 Markdown 作为唯一内容来源，以 GitHub 进行版本管理，以 Docsify 提供分类浏览和全文搜索。
 
-> **Website:** This repository is designed for [Docsify](https://docsify.js.org/). When GitHub Pages is enabled, it can be read as a categorized documentation website without any build process.
+## 快速入口
 
-## Explore
+| 分类 | 用途 | 入口 |
+| --- | --- | --- |
+| **Courses · 课程** | 课程资料、课堂笔记、作业整理 | [课程中心](#/courses/) |
+| **Meetings · 组会** | 会前准备、组会纪要、待办与反馈 | [组会中心](#/meetings/) |
+| **Research · 研究** | 项目探索、文献调研、研究方向 | [研究中心](#/research/) |
+| **Resources · 资源** | 学术工具、写作模板、参考资料 | [资源中心](#/resources/) |
 
-| Section | Purpose |
-| --- | --- |
-| [Courses](courses/README.md) | Course notes, assignments, and learning resources |
-| [Meetings](meetings/README.md) | Meeting preparation, summaries, and action items |
-| [Research](research/README.md) | Research exploration, project reviews, and academic plans |
-| [Resources](resources/README.md) | Reusable guides, links, and templates |
+## 内容管理方式
 
-## Adding a document
+**整理 → 归档 → 发布。** 将内容保存为分类目录中的 Markdown 文档；在对应目录首页添加入口，必要时更新网站侧边栏。无需逐篇编写 HTML，也无需运行构建工具。
 
-1. Create a `.md` file in the appropriate section.
-2. Give it a descriptive name, such as `courses/UCMP-6050/2026-10-16-meeting.md`.
-3. Add a link to the section index and `_sidebar.md` when you want it visible in site navigation.
-4. Commit the changes. If GitHub Pages is enabled, the site updates automatically.
+当前站点为最小可用版本，优先确保结构简洁、导航清晰、长期便于维护。后续课程和组会记录可按需逐篇增加。
 
-Read [MAINTENANCE.md](MAINTENANCE.md) for the content organization rules and deployment settings.
+---
 
-> **Privacy:** This repository is currently public. Only publish materials that are safe to share publicly. Making the repository private later does not erase any copies of content that may already have been accessed.
+*Powered by Docsify · Versioned with GitHub*
